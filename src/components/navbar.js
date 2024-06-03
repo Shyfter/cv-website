@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div className="Projects"><a href="#quizz-app">Quizz App</a></div>
                 <div className="Projects"><a href="#tenzies-app">Tenzies App</a></div>
                 <div className="CV"><a href="#cv-website">CV</a></div>
-                <div className="About" onClick={()=>{alert("Ai prea mult timp liber....")}}>About</div>
+                <div className="About"><a href="#contact">Contact</a></div>
             </div>
             <div className="logo">
                 <img src={logo} alt="Logo"></img>

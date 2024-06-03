@@ -163,3 +163,53 @@ body::-webkit-scrollbar {
   line-height: 25px;
   color: rgb(149, 149, 149);
 }
+
+/* Footer */
+
+footer {
+  width: 85%;
+  margin: 80px auto 120px auto;
+}
+
+.footer {
+  display: flex;
+  color: rgb(149, 149, 149);
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.contact-title {
+  color: rgb(255, 255, 255);
+  margin-left: 10%;
+}
+
+.footer > div {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 33%;
+  padding-bottom: 30px;
+}
+
+.contact-container > img {
+  height:40px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.contact-container > p {
+  margin-left: 50px;
+}
+
+.copyright {
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(133,133,133,1) 100%);
+  padding: 70px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
