@@ -1,9 +1,12 @@
 import './App.css';
+import Navbar from './components/navbar';
+import MainContent from './components/mainContent';
 
 function App() {
   return (
     <div className="App">
-        This is going to be the CV website
+        <Navbar />
+        <MainContent />
     </div>
   );
 }
