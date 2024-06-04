@@ -57,14 +57,14 @@ export default function MainContent() {
                     <p>
                         Tenzies is an exciting dice game that combines luck, 
                         strategy, and quick thinking. Whether you're playing 
-                        solo or with friends, Tenzies promises endless fun. <br></br>
+                        solo or with friends. <br></br>
                         Here are the key features:<br></br>
                         - Each player starts with ten six-sided dice.<br></br>
                         - The goal is to roll all dice to match a specific pattern (e.g., all ones, all twos, etc.).<br></br>
                         - Tenzies is perfect for gatherings, parties, or casual game nights.<br></br>
                         - Challenge your opponents, strategize, and enjoy the thrill of rolling those dice!<br></br>
 
-                        Remember, luck favors the swift in Tenzies. Roll those dice, aim for perfection, and may the Tenzies be ever in your favor! 🎲🏆
+                        Remember, luck favors the swift in Tenzies. Roll those dice and aim for perfection! 🎲🏆
                     </p>
                 </div>
             </div>

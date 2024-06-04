@@ -258,10 +258,29 @@ footer {
       transform: translate(0, -11px) rotate(45deg);
     }
 
+    /* Profile Section */
+
+    .profileSection {
+      margin-top: 220px;
+    }
+
+    .profileDescription {
+      margin-top: 80px;
+      margin-bottom: 50px;
+      width: 80vw;
+    }
+
     /* Apps section */
     .quizz-app, .tenzies-app, .cv-website {
       flex-direction: column;
       width: 80vw;
+      margin-top: 130px;
+      margin-bottom: 50px;
+    }
+
+    .cv-website {
+      margin-top: 200px;
+      margin-bottom: 60px;
     }
 
     .quizz-app-pics-container, .tenzies-app-pics-container, .cv-website-pics-container {
@@ -290,12 +309,108 @@ footer {
     .logo {
       position: fixed;
       top: 10px;
+      padding-right: 15px !important;
       left: 100%;
       transform: translate(-100%);
+      height: fit-content;
     }
 
     .logo > img {
       height: 40px;
     }
-  
+    
+    /* Footer */
+    footer {
+      margin-top: 120px;
+      margin-bottom: 0px;
+    }
+
+    .contact-title {
+      margin: 0px;
+      padding-left: 20px;
+    }
+
+    .footer > div {
+      width: 100%;
+      justify-content: start;
+      padding-left: 20px;
+    }
+
+    .footer {
+      padding-bottom: 20px;
+    }
+
+    .copyright > p {
+      width: 80%;
+      text-align: center;
+    }
+}
+
+@media (max-width:1024px) {
+
+  /* Profile Section */
+
+  .profileSection{
+    margin-top: 450px;
+    margin-bottom: 50px;
+  }
+
+  .profileDescription{
+    margin-bottom: 200px;
+  }
+
+  /* App Section */
+  .quizz-app, .tenzies-app, .cv-website {
+    flex-direction: column;
+    width: 80vw;
+    margin-top: 230px;
+    margin-bottom: 150px;
+  }
+
+  .cv-website {
+    margin-top: 200px;
+    margin-bottom: 220px;
+  }
+
+  .quizz-app-pics-container, .tenzies-app-pics-container, .cv-website-pics-container {
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+  }
+
+  .quizz-app-pics-container {
+    max-height: 620px;
+  }
+
+  .tenzies-app-pics-container, .cv-website-pics-container {
+    margin-bottom: 170px;
+  }
+
+  .quizz-app-pc > img, .tenzies-app-pc > img, .cv-website-pc > img {
+    width: 100%;
+    display: block;
+  }
+
+  .cv-website-pc {
+    padding-top: 100px;
+  }
+
+  .quizz-app-phone{
+    bottom: 20px;
+  }
+  .quizz-app-phone > img {
+    height: 220px;
+    display: block;
+  }
+
+  /*Footer*/
+  footer {
+    padding-top: 200px;
+    margin-bottom: 250px;
+  }
+
+  .copyright {
+    padding-top: 190px;
+    padding-bottom: 60px;
+  }
 }
