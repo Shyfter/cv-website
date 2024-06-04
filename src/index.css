@@ -222,7 +222,8 @@ footer {
 @media (max-width:480px) {
 
     .navbar{
-      margin-top: 50px;
+      padding-top: 50px;
+      margin-top: 0px;
       padding-left: 0px;
     }
     /*menu icon*/ 
@@ -257,6 +258,44 @@ footer {
       transform: translate(0, -11px) rotate(45deg);
     }
 
+    /* Apps section */
+    .quizz-app, .tenzies-app, .cv-website {
+      flex-direction: column;
+      width: 80vw;
+    }
 
+    .quizz-app-pics-container, .tenzies-app-pics-container, .cv-website-pics-container {
+      width: 100%;
+      margin: 0;
+      height: fit-content;
+    }
+
+    .tenzies-app-pics-container, .cv-website-pics-container {
+      margin-bottom: 70px;
+    }
+
+    .quizz-app-pc > img, .tenzies-app-pc > img, .cv-website-pc > img {
+      width: 100%;
+      display: block;
+    }
+
+    .quizz-app-phone{
+      bottom: 5px;
+    }
+    .quizz-app-phone > img {
+      height: 60px;
+      display: block;
+    }
+
+    .logo {
+      position: fixed;
+      top: 10px;
+      left: 100%;
+      transform: translate(-100%);
+    }
+
+    .logo > img {
+      height: 40px;
+    }
   
 }
