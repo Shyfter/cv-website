@@ -10,7 +10,7 @@ function App() {
         <MainContent />
         <Footer />
         <div className="copyright">
-                <p>Copryright © 2014 Tintaru Andrei (Shyfter).
+                <p>Copryright © 2024 Tintaru Andrei (Shyfter).
                      All rights reserved.
                 </p>
         </div>
