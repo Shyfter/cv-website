@@ -12,7 +12,7 @@ export default function Footer(){
             <h2 className="contact-title">Contact</h2>
             <div className="footer">
                 <div className="phone">
-                    <div className="contact-container" onClick={()=>{window.open('+40720790861')}}>
+                    <div className="contact-container" onClick={()=>{window.open('tel:+40720790861')}}>
                         <img src={phone} alt="icon"></img>
                         <p>Phone</p>
                     </div>
